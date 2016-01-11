@@ -1,0 +1,28 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>getElementsByClassName</Title>
+        <Author>Mads Kristensen</Author>
+        <Shortcut>gc</Shortcut>
+        <Description>Code snippet for "getElementsByClassName"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>Parent element</ToolTip>
+                <Default>document</Default>
+            </Literal>
+            <Literal>
+                <ID>class</ID>
+                <ToolTip>The class name of the elements</ToolTip>
+                <Default>class</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[$object$.getElementsByClassName($class$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

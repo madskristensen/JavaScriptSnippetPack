@@ -1,0 +1,35 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>property function</Title>
+        <Author>Mads Kristensen</Author>
+        <Shortcut>ofn</Shortcut>
+        <Description>Code snippet for function as a property of an object</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>function</ID>
+                <ToolTip>The name of the function</ToolTip>
+                <Default>functionName</Default>
+            </Literal>
+            <Literal>
+                <ID>arguments</ID>
+                <ToolTip>The arguments of the function</ToolTip>
+                <Default>arguments</Default>
+            </Literal>
+            <Literal>
+                <ID>body</ID>
+                <ToolTip>The body of the function</ToolTip>
+                <Default>// body</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[$function$: function($arguments$) {
+    $body$
+};$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

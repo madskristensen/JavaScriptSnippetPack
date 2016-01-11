@@ -1,0 +1,33 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>setAttribute</Title>
+        <Author>Mads Kristensen</Author>
+        <Shortcut>sa</Shortcut>
+        <Description>Code snippet for "setAttribute"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>Parent element</ToolTip>
+                <Default>document</Default>
+            </Literal>
+            <Literal>
+                <ID>attr</ID>
+                <ToolTip>The name of the attribute</ToolTip>
+                <Default>attr</Default>
+            </Literal>
+            <Literal>
+                <ID>value</ID>
+                <ToolTip>The value of the attribute</ToolTip>
+                <Default>value</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[$object$.setAttribute($name$, $value$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>
