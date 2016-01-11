@@ -1,6 +1,6 @@
 ## JavaScript Snippet Pack for Visual Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/7l4iyu356ci5yy2u?svg=true)](https://ci.appveyor.com/project/madskristensen/reactsnippetpack)
+[![Build status](https://ci.appveyor.com/api/projects/status/qogg94i8nry0g0j7?svg=true)](https://ci.appveyor.com/project/madskristensen/javascriptsnippetpack)
 
 Download this extension from the
 [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/234d79e9-f0fd-41e1-a926-850da8e8c7d7)
