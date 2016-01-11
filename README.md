@@ -28,25 +28,25 @@ console.dir(${1:obj});
 ### [ce] console.error
 
 ```javascript
-console.error(${1:obj});
+console.error($end$);
 ```
 
 ### [ci] console.info
 
 ```javascript
-console.info(${1:obj});
+console.info($end$);
 ```
 
 ### [cl] console.log
 
 ```javascript
-console.log(${1:obj});
+console.log($end$);
 ```
 
 ### [cw] console.warn
 
 ```javascript
-console.warn(${1:obj});
+console.warn($end$);
 ```
 
 ### [de] debugger
@@ -60,111 +60,111 @@ debugger;
 ### [ae] addEventListener
 
 ```javascript
-${1:document}.addEventListener('${2:event}', function(e) {
-	${0:// body...}
+$document$.addEventListener('$event$', function(e) {
+	$end$
 });
 ```
 
 ### [ac] appendChild
 
 ```javascript
-${1:document}.appendChild(${2:elem});
+$document$.appendChild($elem$);
 ```
 
 ### [rc] removeChild
 
 ```javascript
-${1:document}.removeChild(${2:elem});
+$document$.removeChild($elem$);
 ```
 
 ### [cel] createElement
 
 ```javascript
-${1:document}.createElement(${2:elem});
+$document$.createElement($elem$);
 ```
 
 ### [cdf] createDocumentFragment
 
 ```javascript
-${1:document}.createDocumentFragment(${2:elem});
+$document$.createDocumentFragment($elem$);
 ```
 
 ### [ca] classList.add
 
 ```javascript
-${1:document}.classList.add('${2:class}');
+$document$.classList.add('$class$');
 ```
 
 ### [ct] classList.toggle
 
 ```javascript
-${1:document}.classList.toggle('${2:class}');
+$document$.classList.toggle('$class$');
 ```
 
 ### [cr] classList.remove
 
 ```javascript
-${1:document}.classList.remove('${2:class}');
+$document$.classList.remove('$class$');
 ```
 
 ### [gi] getElementById
 
 ```javascript
-${1:document}.getElementById('${2:id}');
+$document$.getElementById('$id$');
 ```
 
 ### [gc] getElementsByClassName
 
 ```javascript
-${1:document}.getElementsByClassName('${2:class}');
+$document$.getElementsByClassName('$class$');
 ```
 
 ### [gt] getElementsByTagName
 
 ```javascript
-${1:document}.getElementsByTagName('${2:tag}');
+$document$.getElementsByTagName('$tag$');
 ```
 
 ### [ga] getAttribute
 
 ```javascript
-${1:document}.getAttribute('${2:attr}');
+$document$.getAttribute('$attr$');
 ```
 
 ### [sa] setAttribute
 
 ```javascript
-${1:document}.setAttribute('${2:attr}', ${3:value});
+$document$.setAttribute('$attr$', $value$);
 ```
 
 ### [ra] removeAttribute
 
 ```javascript
-${1:document}.removeAttribute('${2:attr}');
+$document$.removeAttribute('$attr$');
 ```
 
 ### [ih] innerHTML
 
 ```javascript
-${1:document}.innerHTML = '${2:elem}';
+$document$.innerHTML = '$elem$';
 ```
 
 ### [tc] textContent
 
 ```javascript
-${1:document}.textContent = '${2:content}';
+$document$.textContent = '$content$';
 ```
 
 ### [qs] querySelector
 
 ```javascript
-${1:document}.querySelector('${2:selector}');
+$document$.querySelector('$selector$');
 ```
 
 ### [qsa] querySelectorAll
 
 ```javascript
-${1:document}.querySelectorAll('${2:selector}');
+$document$.querySelectorAll('$selector$');
 ```
 
 ## Loop
@@ -172,72 +172,46 @@ ${1:document}.querySelectorAll('${2:selector}');
 ### [fe] forEach
 
 ```javascript
-${1:myArray}.forEach(function(${2:elem}) {
-	${0:// body...}
+$myArray$.forEach(function($item$) {
+	$end$
 });
-```
-
-### [fi] for in
-
-```javascript
-for (${1:prop} in ${2:obj}) {
-	if (${2:obj}.hasOwnProperty(${1:prop})) {
-		${0:// body...}
-	}
-}
 ```
 
 ## Function
 
-### [fn] function
-
-```javascript
-function ${1:methodName} (${2:arguments}) {
-	${0:// body...}
-}
-```
-
 ### [afn] anonymous function
 
 ```javascript
-function(${1:arguments}) {
-	${0:// body...}
+function($arguments$) {
+	$end$
 }
 ```
 
 ### [pr] prototype
 
 ```javascript
-${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
-	${0:// body...}
+$object$.prototype.$methodName$ = function($arguments$) {
+	$end$
 }
-```
-
-### [iife] immediately-invoked function expression
-
-```javascript
-(function(window, document, undefined) {
-	${0:// body...}
-})(window, document);
 ```
 
 ### [call] function call
 
 ```javascript
-${1:methodName}.call(${2:context}, ${3:arguments})
+$methodName$.call($context$, $arguments$)
 ```
 
 ### [apply] function apply
 
 ```javascript
-${1:methodName}.apply(${2:context}, [${3:arguments}])
+$methodName$.apply($context$, [$arguments$])
 ```
 
 ### [ofn] function as a property of an object
 
 ```javascript
-${1:functionName}: function(${2:arguments}) {
-	${3:// body...}
+$functionName$: function($arguments$) {
+	$end$
 }
 ```
 
@@ -246,13 +220,13 @@ ${1:functionName}: function(${2:arguments}) {
 ### [jp] JSON.parse
 
 ```javascript
-JSON.parse(${1:obj});
+JSON.parse($object$);
 ```
 
 ### [js] JSON.stringify
 
 ```javascript
-JSON.stringify(${1:obj});
+JSON.stringify($object$);
 ```
 
 ## Timer
@@ -261,16 +235,16 @@ JSON.stringify(${1:obj});
 
 ```javascript
 setInterval(function() {
-	${0:// body...}
-}, ${1:delay});
+	$end$
+}, $delay$);
 ```
 
 ### [st] setTimeout
 
 ```javascript
 setTimeout(function() {
-	${0:// body...}
-}, ${1:delay});
+	$end$
+}, $delay$);
 ```
 
 ## Misc
@@ -284,17 +258,17 @@ setTimeout(function() {
 ### [al] alert
 
 ```javascript
-alert('${1:msg}');
+alert('$message$');
 ```
 
 ### [co] confirm
 
 ```javascript
-confirm('${1:msg}');
+confirm('$message$');
 ```
 
 ### [pm] prompt
 
 ```javascript
-prompt('${1:msg}');
+prompt('$message$');
 ```
