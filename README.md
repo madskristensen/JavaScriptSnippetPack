@@ -10,10 +10,14 @@ or get the
 -----------------------------------------
 
 A snippet pack to make you more productive working with JavaScript.
+Based on the [Atom snippets](https://atom.io/packages/javascript-snippets).
 
 ![Snippet manager](art/javascript-snippet-pack.gif)
 
-Based on the [Atom snippets](https://atom.io/packages/javascript-snippets).
+This extension ships a bunch of useful code snippets for
+the JavaScript editor. Get an overview from the
+**Code Snippet Manager** in Visual Studio located under
+the **Tools** top level menu.
 
 ![Snippet manager](art/snippet-manager.png)
 
