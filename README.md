@@ -10,8 +10,10 @@ or get the
 -----------------------------------------
 
 A snippet pack to make you more productive working with JavaScript.
-Based on the [Atom snippets](https://atom.io/packages/javascript-snippets).
 
+![Snippet manager](art/javascript-snippet-pack.gif)
+
+Based on the [Atom snippets](https://atom.io/packages/javascript-snippets).
 
 ![Snippet manager](art/snippet-manager.png)
 
