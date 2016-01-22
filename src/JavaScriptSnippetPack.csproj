@@ -170,7 +170,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="snippets.pkgdef">
+    <Content Include="Snippets\snippets.pkgdef">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
   </ItemGroup>

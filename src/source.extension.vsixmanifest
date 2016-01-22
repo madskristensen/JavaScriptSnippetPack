@@ -16,6 +16,6 @@
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
     </Installation>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
     </Assets>
 </PackageManifest>
