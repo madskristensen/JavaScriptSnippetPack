@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="2a20580c-7be4-4440-bcd6-8dcf5aa2004e" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="2a20580c-7be4-4440-bcd6-8dcf5aa2004e" Version="1.1" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>JavaScript Snippet Pack</DisplayName>
         <Description xml:space="preserve">A snippet pack to make you more productive working with JavaScript.</Description>
         <MoreInfo>https://github.com/madskristensen/JavaScriptSnippetPack</MoreInfo>
@@ -13,7 +13,8 @@
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
         <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="14.0" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="15.0" />
     </Installation>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
