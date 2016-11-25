@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>$(VisualStudioVersion)</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -50,119 +50,119 @@
     <Content Include="Resources\Preview.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\cd.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\cd.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="..\LICENSE">
       <Link>Resources\LICENSE</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ce.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ce.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ci.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ci.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\cw.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\cw.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\de.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\de.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ae.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ae.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ac.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ac.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\rc.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\rc.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\cel.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\cel.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\cdf.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\cdf.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ca.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ca.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ct.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ct.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\cr.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\cr.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\gi.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\gi.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\gc.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\gc.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\gt.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\gt.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ga.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ga.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\sa.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\sa.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ra.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ra.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ih.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ih.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\tc.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\tc.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\qs.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\qs.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\qsa.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\qsa.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\fe.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\fe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\afn.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\afn.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\pr.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\pr.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\call.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\call.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\apply.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\apply.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\ofn.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\ofn.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\jp.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\jp.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\js.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\js.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\si.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\si.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\st.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\st.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\us.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\us.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\al.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\al.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\co.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\co.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript Snippet Pack\pm.snippet">
+    <Content Include="Snippets\JavaScriptSnippetPack\pm.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
