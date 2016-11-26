@@ -3,5 +3,5 @@
 "MySnippets"="$PackageFolder$\JavaScriptSnippetPack"
 
 ; VS 2017
-[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
-"MySnippets"="$PackageFolder$\JavaScriptSnippetPack"
+;[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
+;"MySnippets"="$PackageFolder$\JavaScriptSnippetPack"
