@@ -1,0 +1,28 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>removeAttribute</Title>
+        <Shortcut>ra</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for "removeAttribute"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>Parent element</ToolTip>
+                <Default>document</Default>
+            </Literal>
+            <Literal>
+                <ID>name</ID>
+                <ToolTip>The name of the attribute</ToolTip>
+                <Default>name</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[$object$.removeAttribute($name$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

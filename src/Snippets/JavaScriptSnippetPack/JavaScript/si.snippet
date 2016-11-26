@@ -1,0 +1,30 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>setInterval</Title>
+        <Shortcut>si</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for "setInterval"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>body</ID>
+                <ToolTip>The body of the function</ToolTip>
+                <Default>// body...</Default>
+            </Literal>
+            <Literal>
+                <ID>delay</ID>
+                <ToolTip>The delay in milliseconds</ToolTip>
+                <Default>1000</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[setInterval(function() {
+    $body$
+}, $delay$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

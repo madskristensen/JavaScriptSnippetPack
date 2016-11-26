@@ -1,0 +1,40 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>prototype</Title>
+        <Shortcut>pr</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for a prototype function</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>The object which prototype to modify</ToolTip>
+                <Default>object</Default>
+            </Literal>
+            <Literal>
+                <ID>method</ID>
+                <ToolTip>The name of the new prototype method</ToolTip>
+                <Default>method</Default>
+            </Literal>
+            <Literal>
+                <ID>arguments</ID>
+                <ToolTip>The arguments of the function</ToolTip>
+                <Default>arguments</Default>
+            </Literal>
+            <Literal>
+                <ID>body</ID>
+                <ToolTip>The body of the function</ToolTip>
+                <Default>// body</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[$object$.prototype.$method$ = function($arguments$) {
+    $body$
+};$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

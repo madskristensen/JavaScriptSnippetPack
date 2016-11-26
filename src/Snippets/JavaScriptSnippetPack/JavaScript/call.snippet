@@ -1,0 +1,33 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>function call</Title>
+        <Shortcut>call</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for a function call</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>method</ID>
+                <ToolTip>The name of the new prototype method</ToolTip>
+                <Default>method</Default>
+            </Literal>
+            <Literal>
+                <ID>context</ID>
+                <ToolTip>The body of the function</ToolTip>
+                <Default>context</Default>
+            </Literal>
+            <Literal>
+                <ID>arguments</ID>
+                <ToolTip>The arguments of the function</ToolTip>
+                <Default>arguments</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[$method$.call($context$, $arguments$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

@@ -1,0 +1,28 @@
+﻿ <CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>textContent</Title>
+        <Shortcut>tc</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for "textContent"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>Parent element</ToolTip>
+                <Default>document</Default>
+            </Literal>
+            <Literal>
+                <ID>text</ID>
+                <ToolTip>The text to asign</ToolTip>
+                <Default>text</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[$object$.textContent = '$text$';$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

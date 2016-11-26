@@ -1,0 +1,28 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>removeChild</Title>
+        <Shortcut>rc</Shortcut>
+        <Author>Mads Kristensen</Author>
+        <Description>Code snippet for "removeChild"</Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>object</ID>
+                <ToolTip>Parent element</ToolTip>
+                <Default>document</Default>
+            </Literal>
+            <Literal>
+                <ID>child</ID>
+                <ToolTip>The element to remove</ToolTip>
+                <Default>elem</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="TypeScript">
+            <![CDATA[$object$.removeChild($child$);$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>
