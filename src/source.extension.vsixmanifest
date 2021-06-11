@@ -7,13 +7,16 @@
     <MoreInfo>https://github.com/madskristensen/JavaScriptSnippetPack</MoreInfo>
     <License>Resources\LICENSE</License>
     <Icon>Resources\Icon.png</Icon>
-    <PreviewImage>Resources\Preview.png</PreviewImage>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
     <Tags>JavaScript, snippets</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[14.0,17.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
   </Installation>
   <Prerequisites>
     <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />

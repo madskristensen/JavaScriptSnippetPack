@@ -47,9 +47,6 @@
     <Content Include="Resources\Icon.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\Preview.png">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Snippets\JavaScriptSnippetPack\cd.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
